@@ -13,7 +13,7 @@ Opencv 2.5+
 ```
 ./SCC [inputpath] [w1] [h1] [h2] [w2] [outputpath]
 
-#Parameters
+# Parameters
 w1:How many pixels are compressed horizontally
 
 h1:How many pixels are compressed longitudinally
