@@ -14,12 +14,15 @@ Opencv 2.5+
 ./SCC [inputpath] [w1] [h1] [h2] [w2] [outputpath]
 
 w1:How many pixels are compressed horizontally
+
 h1:How many pixels are compressed longitudinally
+
 w2:How many pixels are expaned horizontally
+
 h2:How many pixels are expaned longitudinally
 ```
 $ ./SCC ~/Downloads/cat.jpeg 0 150 100 0 ~/sem.jpg
 ```
 #--
-![image](crop.png)
-![image](cat.png)
+![sample](./image/crop.png)
+![sample](./image/cat.png)
