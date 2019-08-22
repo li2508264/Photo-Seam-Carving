@@ -13,6 +13,7 @@ Opencv 2.5+
 ```
 ./SCC [inputpath] [w1] [h1] [h2] [w2] [outputpath]
 
+#Parameters
 w1:How many pixels are compressed horizontally
 
 h1:How many pixels are compressed longitudinally
@@ -20,6 +21,8 @@ h1:How many pixels are compressed longitudinally
 w2:How many pixels are expaned horizontally
 
 h2:How many pixels are expaned longitudinally
+
+such as :
 ```
 $ ./SCC ~/Downloads/cat.jpeg 0 150 100 0 ~/sem.jpg
 ```
