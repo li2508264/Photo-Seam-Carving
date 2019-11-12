@@ -10,6 +10,8 @@ Opencv 2.5+
 
 ```
   $ g++ -fopenmp -m64 -Wno-sign-compare seamcarv.cpp -std=c++11 -o SCC `pkg-config --cflags --libs opencv`
+or
+  $ go build seamcarv.go
 ```
 ./SCC [inputpath] [w1] [h1] [h2] [w2] [outputpath]
 
